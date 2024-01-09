@@ -7,7 +7,7 @@ const ContentContainer = () => {
   return (
     <div className="content-container">
     <TopNavigation />
-    <div className='content-list'>
+    <div className='content-list pl-5'>
         {postsData.map((post, index) => (
           <Post key={index} {...post} />
         ))}
