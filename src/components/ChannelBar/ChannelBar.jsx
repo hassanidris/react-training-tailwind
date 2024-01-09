@@ -19,4 +19,4 @@ const ChannelBar = () => {
   )
 }
 
-export default ChannelBar
+export default ChannelBar;
